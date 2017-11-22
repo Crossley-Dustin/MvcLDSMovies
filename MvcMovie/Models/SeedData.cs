@@ -21,34 +21,38 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                      new Movie
                      {
-                         Title = "When Harry Met Sally",
-                         ReleaseDate = DateTime.Parse("1989-1-11"),
-                         Genre = "Romantic Comedy",
-                         Price = 7.99M
+                         Title = "Meet the Mormons",
+                         ReleaseDate = DateTime.Parse("2014-10-10"),
+                         Genre = "Documentary",
+                         Rating = "PG",
+                         Price = 4.98M
                      },
 
                      new Movie
                      {
-                         Title = "Ghostbusters ",
-                         ReleaseDate = DateTime.Parse("1984-3-13"),
-                         Genre = "Comedy",
-                         Price = 8.99M
+                         Title = "17 Miracles",
+                         ReleaseDate = DateTime.Parse("2011-6-3"),
+                         Genre = "Adventure",
+                         Rating = "PG",
+                         Price = 11.99M
                      },
 
                      new Movie
                      {
-                         Title = "Ghostbusters 2",
-                         ReleaseDate = DateTime.Parse("1986-2-23"),
+                         Title = "Singles Ward",
+                         ReleaseDate = DateTime.Parse("2002-1-30"),
                          Genre = "Comedy",
-                         Price = 9.99M
+                         Rating = "PG",
+                         Price = 19.99M
                      },
 
                    new Movie
                    {
-                       Title = "Rio Bravo",
-                       ReleaseDate = DateTime.Parse("1959-4-15"),
-                       Genre = "Western",
-                       Price = 3.99M
+                       Title = "The Other Side of Heaven",
+                       ReleaseDate = DateTime.Parse("2002-4-12"),
+                       Genre = "Adventure",
+                       Rating="PG",
+                       Price = 12.99M
                    }
                 );
                 context.SaveChanges();

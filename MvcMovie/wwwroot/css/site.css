@@ -8,6 +8,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 /* Carousel */
@@ -32,4 +33,18 @@
     .carousel-caption {
         display: none;
     }
+}
+
+/* Site colors */
+body {
+    color: #ac51c8;
+}
+
+.navbar {
+    background-color: #2135cc;
+    border-color: #2d6e9e;
+}
+
+h1, h2, h3 {
+    color: #359f1b;
 }
